@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -70,7 +71,7 @@
 }
 
 .navbar .navbar-box .menu li a:hover,
-.navbar .navbar-box .social li a:hover {
+.navbar .navbar-box .social a:hover {
     color: var(--text-color);
 }
 
@@ -97,7 +98,7 @@
     background-color: #fff;
 }
 
-
+/* todo Header  */
 
 .header {
     width: 100%;
@@ -401,12 +402,15 @@
 
 .projects .front-projects .front-projects-box .box {
     width: 320px;
+    
 }
 
 .projects .front-projects .front-projects-box .box img {
     width: 100%;
-    height: 250px;
+    height: 50%;
     margin-bottom: 20px;
+    object-fit: contain;
+    box-shadow: 1px 1px 5px #3f4451;
 }
 
 .projects .front-projects .front-projects-box .box h1 {
@@ -479,6 +483,8 @@
     width: 100%;
     height: 250px;
     margin-bottom: 20px;
+    object-fit: contain;
+    box-shadow: 1px 1px 5px #3f4451;
 }
 
 .projects .uiux-projects .uiux-projects-box .box h1 {
